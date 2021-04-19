@@ -6,7 +6,7 @@ pinMode(5, OUTPUT);
 }
 void loop() {
 int i;
-for(i = 0; i<=; i++)
+for(i = 0; i<=15; i++)
 {
   digitalWrite(2, i%2);
   digitalWrite(3, (i>>1)%2);
