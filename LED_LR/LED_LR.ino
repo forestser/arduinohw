@@ -1,5 +1,5 @@
 byte Pin[] = {2,3,4,5,6,7,8,9};
-byte Pin_num = sizeof(Pin) / sizeof(byte); // Pin
+byte Pin_num = sizeof(Pin) / sizeof(byte); 
 void setup() {
  for(int i=2 ; i<=9 ; i++)
  pinMode(i, OUTPUT);
