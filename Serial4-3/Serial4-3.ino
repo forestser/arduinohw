@@ -13,7 +13,7 @@ void loop()
       int i = Serial.parseInt();
      i--;
       Cur_LED = Cur_LED ^ (1 << i);
-      for (int j = 0; j <= 8 ; j++)
+      for (int j = 0; j <= 7 ; j++)
           digitalWrite(LED[j], Cur_LED & (1<<j));
     }
 }
